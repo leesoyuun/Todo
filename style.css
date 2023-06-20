@@ -1,0 +1,47 @@
+.intro-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro-center{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.welcome-text{
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.name-input{
+    border:none;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+.name-input::placeholder{
+    width: 100%;
+    font-weight: bold;
+    color:#AFAFAF;
+}
+.name-input:focus{
+    outline: none;
+    text-align: center;
+}
+.enroll-btn{
+    margin: 20px auto 0;
+    border:none;
+    background-color: #EBA8B0;
+    border-radius: 3px;
+    width: 10rem;
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    letter-spacing: 3px;
+    height: 2.5rem;
+}
